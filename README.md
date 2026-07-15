@@ -84,16 +84,32 @@ Full Stack Engineer with robust expertise in microservices, cloud-native archite
 ### 🛠️ Key Architectural Implementations
 
 #### 📡 1. Cloud-Connected Edge AI: ESP32-CAM + PHP + ML.NET
-Designed and deployed an end-to-end IoT solution that automates image acquisition on edge hardware and syncs it with cloud architecture for real-time analysis[cite: 1].
+Designed and deployed an end-to-end IoT solution that automates image acquisition on edge hardware and syncs it with cloud architecture for real-time analysis.
 
-> **[ 🛠️ ESP32-CAM Firmware ]** ──*(Auto-Capture & HTTP)*──> **[ 🖥️ PHP Storage Repo ]**  
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│  
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*(REST API Ingestion)*  
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▼  
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[ 🧠 ML.NET Core Inference ]**
 
-* 🔩 **Firmware:** Automated edge photo capture and structured image transmission over HTTP/S streams[cite: 1].
-* 🧠 **Backend & AI:** Engineered a lightweight PHP image intake repository coupled with ML.NET computer vision models to output inference metrics via REST API workflows[cite: 1].
+```mermaid
+graph LR
+    %% Configuración de estilos y paleta de colores moderna
+    classDef hardware fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#f8fafc;
+    classDef storage fill:#0f172a,stroke:#10b981,stroke-width:2px,color:#f8fafc;
+    classDef ai fill:#0f172a,stroke:#c084fc,stroke-width:2px,color:#f8fafc;
+    classDef linkStyle stroke:#94a3b8,stroke-width:2px,color:#94a3b8;
+
+    %% Nodos
+    A["⚙️ ESP32-CAM Firmware"]:::hardware
+    B["🖥️ PHP Storage Repo"]:::storage
+    C["🧠 ML.NET Core Inference"]:::ai
+
+    %% Flujos y conexiones
+    A -->|Auto-Capture & HTTP| B
+    B -->|REST API Ingestion| C
+
+    %% Aplicación de estilos de enlace
+    linkStyle 0,1 stroke:#2dd4bf,stroke-width:2px;
+
+
+* 🔩 **Firmware:** Automated edge photo capture and structured image transmission over HTTP/S streams.
+* 🧠 **Backend & AI:** Engineered a lightweight PHP image intake repository coupled with ML.NET computer vision models to output inference metrics via REST API workflows.
 
 #### 🎨 2. Phygital Ecosystem: IoT Interactive Papercrafts
 Developed multiple experimental prototypes bridging physical papercraft layouts with embedded automation devices for creative applications[cite: 1].
