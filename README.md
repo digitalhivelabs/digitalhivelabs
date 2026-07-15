@@ -86,11 +86,7 @@ Full Stack Engineer with robust expertise in microservices, cloud-native archite
 #### 📡 1. Cloud-Connected Edge AI: ESP32-CAM + PHP + ML.NET
 Designed and deployed an end-to-end IoT solution that automates image acquisition on edge hardware and syncs it with cloud architecture for real-time analysis.
 
-
-<p align="center">
-  <img src="https://mermaid.ink/img/pako:eNqFkU1LxDAURv_KmEteKuxM6KDrQVBcFN3OdtbHbeo0mclMSvK7izp-p_izv0ms3XUh5BYy957zXgInC7pTEnB-vtBvEGreG-mNuREliV0TYOxf2FeSpm9oZ-uXaGj9p1_A_BldMIuLH3Ld1CSv_pIaqfkT7sFv2O6-Z1ie-D6p3b_m-0_H3HofMdeIguuX8Zf09XpM_f_Gv-mXp77_wHlD93G87v2n6_8Z8-I16XNZZpIWWz3YpT7r1ZtO3_u_G_A2DuySDvWpzzfN33B9M-D6ZIBt0kAnKqCTFf_4oR76D-v_p9qOenWbZLc-Nisv67XitKz_AL8_uMo" alt="ESP32-CAM IoT and Cloud Architecture Diagram" width="100%">
-</p>
-
+(PENDING DIAGRAMS HERE...)
 
 * 🔩 **Firmware:** Automated edge photo capture and structured image transmission over HTTP/S streams.
 * 🧠 **Backend & AI:** Engineered a lightweight PHP image intake repository coupled with ML.NET computer vision models to output inference metrics via REST API workflows.
