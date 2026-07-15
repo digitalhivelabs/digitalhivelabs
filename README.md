@@ -92,15 +92,13 @@ Designed and deployed an end-to-end IoT solution that automates image acquisitio
 * 🧠 **Backend & AI:** Engineered a lightweight PHP image intake repository coupled with ML.NET computer vision models to output inference metrics via REST API workflows.
 
 #### 🎨 2. Phygital Ecosystem: IoT Interactive Papercrafts
-Developed multiple experimental prototypes bridging physical papercraft layouts with embedded automation devices for creative applications[cite: 1].
+Developed multiple experimental prototypes bridging physical papercraft layouts with embedded automation devices for creative applications.
 
-> **[ 📱 Android Mobile App ]** <──*(Bluetooth / Wi-Fi)*──> **[ 🔌 ESP32 / Arduino Micro ]**  
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│  
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▼  
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[ 🎭 Actuators & Sensors ]**
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/094096db-8c95-41ca-9eb1-f4abae32b5fc" />
 
-* ⚡ **Interactive Hardware:** Programmed ESP32/Arduino microcontrollers to handle lighting sequences, sensor feedback, and audio playback within paper-modeled designs[cite: 1].
-* 📱 **Mobile Control:** Built an Android mobile client enabling seamless wireless orchestration and granular control over hardware states[cite: 1].
+
+* ⚡ **Interactive Hardware:** Programmed ESP32/Arduino microcontrollers to handle lighting sequences, sensor feedback, and audio playback within paper-modeled designs.
+* 📱 **Mobile Control:** Built an Android mobile client enabling seamless wireless orchestration and granular control over hardware states.
 
 ---
 
