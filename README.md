@@ -10,7 +10,7 @@
 ---
 
 ### 👨‍💻 Professional Profile
-Full Stack Engineer with robust expertise in microservices, cloud-native architectures, and IoT solutions integrating mobile apps with embedded devices[cite: 1]. Senior .NET Developer with 28+ years of experience delivering scalable APIs, cloud integrations, and innovative interactive prototypes[cite: 1, 2]. Proven track record in university-level teaching, educational innovation, and leading high-performance engineering teams across international environments[cite: 1, 2].
+Full Stack Engineer with robust expertise in microservices, cloud-native architectures, and IoT solutions integrating mobile apps with embedded devices. Senior .NET Developer with 28+ years of experience delivering scalable APIs, cloud integrations, and innovative interactive prototypes. Proven track record in university-level teaching, educational innovation, and leading high-performance engineering teams across international environments.
 
 ---
 
