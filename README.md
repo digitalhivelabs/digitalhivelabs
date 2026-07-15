@@ -95,7 +95,8 @@ Designed and deployed an end-to-end IoT solution that automates image acquisitio
 Developed multiple experimental prototypes bridging physical papercraft layouts with embedded automation devices for creative applications.
 
 <img width="1211" height="506" alt="image" src="https://github.com/user-attachments/assets/17f02542-85eb-4666-9dae-242f361d0dbd" />
-<img height="150" alt="image" src="https://github.com/user-attachments/assets/18ca5676-6714-445c-afe5-0f63a603632b" />
+<img height="250" alt="image" src="https://github.com/user-attachments/assets/18ca5676-6714-445c-afe5-0f63a603632b" />
+<img height="250" alt="image" src="https://github.com/user-attachments/assets/02cabef9-078b-437a-a247-909b960b5871" />
 
 
 * ⚡ **Interactive Hardware:** Programmed ESP32/Arduino microcontrollers to handle lighting sequences, sensor feedback, and audio playback within paper-modeled designs.
