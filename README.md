@@ -89,23 +89,22 @@ Designed and deployed an end-to-end IoT solution that automates image acquisitio
 
 ```mermaid
 graph LR
-    %% Configuración de estilos y paleta de colores moderna
-    classDef hardware fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#f8fafc;
-    classDef storage fill:#0f172a,stroke:#10b981,stroke-width:2px,color:#f8fafc;
-    classDef ai fill:#0f172a,stroke:#c084fc,stroke-width:2px,color:#f8fafc;
-    classDef linkStyle stroke:#94a3b8,stroke-width:2px,color:#94a3b8;
-
     %% Nodos
-    A["⚙️ ESP32-CAM Firmware"]:::hardware
-    B["🖥️ PHP Storage Repo"]:::storage
-    C["🧠 ML.NET Core Inference"]:::ai
+    A["⚙️ ESP32-CAM Firmware"]
+    B["🖥️ PHP Storage Repo"]
+    C["🧠 ML.NET Core Inference"]
 
-    %% Flujos y conexiones
+    %% Conexiones
     A -->|Auto-Capture & HTTP| B
     B -->|REST API Ingestion| C
 
-    %% Aplicación de estilos de enlace
-    linkStyle 0,1 stroke:#2dd4bf,stroke-width:2px;
+    %% Estilos de los Nodos (Bordes y Colores)
+    style A fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#f8fafc
+    style B fill:#0f172a,stroke:#10b981,stroke-width:2px,color:#f8fafc
+    style C fill:#0f172a,stroke:#c084fc,stroke-width:2px,color:#f8fafc
+
+    %% Estilos de las líneas de conexión y texto
+    linkStyle 0,1 stroke:#2dd4bf,stroke-width:2px,color:#94a3b8
 
 
 * 🔩 **Firmware:** Automated edge photo capture and structured image transmission over HTTP/S streams.
