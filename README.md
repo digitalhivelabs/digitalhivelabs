@@ -94,7 +94,8 @@ Designed and deployed an end-to-end IoT solution that automates image acquisitio
 #### 🎨 2. Phygital Ecosystem: IoT Interactive Papercrafts
 Developed multiple experimental prototypes bridging physical papercraft layouts with embedded automation devices for creative applications.
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/094096db-8c95-41ca-9eb1-f4abae32b5fc" />
+<img height="400" alt="image" src="https://github.com/user-attachments/assets/094096db-8c95-41ca-9eb1-f4abae32b5fc" />
+<img width="898" height="484" alt="image" src="https://github.com/user-attachments/assets/18ca5676-6714-445c-afe5-0f63a603632b" />
 
 
 * ⚡ **Interactive Hardware:** Programmed ESP32/Arduino microcontrollers to handle lighting sequences, sensor feedback, and audio playback within paper-modeled designs.
